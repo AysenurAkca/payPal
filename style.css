@@ -1,0 +1,183 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    width: 1000px;
+    height: 100vh;
+    padding: 5px;
+}
+
+a {
+    color: blue;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+#header {
+    width: 100%;
+    
+}
+
+#header-text {
+    border-bottom: 1px solid lightgrey;
+}
+
+#main{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.main-left{
+    width: 40%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: flex-start;
+
+}
+
+.input-section{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: flex-start;
+    margin-top: 15px;
+}
+
+.input-section input{
+    display: block;
+}
+
+.input-section input[type="number"] {
+    width: 20%;
+}
+
+.main-center{
+    width: 40%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-self: center;
+    gap: 5px;
+
+}
+
+.main-center-img{
+    width: 100%;
+    height: 200px;
+    display: flex;
+}
+
+.main-center-footer{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    gap: 5px;
+    font-size: 14px;
+    
+    
+    
+    
+}
+
+.main-center-footer-img{
+    width: 50px;
+    height: 30px;
+   
+
+}
+
+.review{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    
+    
+   
+}
+
+.main-right{
+    width: 15%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    font-size:11px;
+    gap: 5px;
+ 
+    
+}
+
+.main-right-section{
+    width: 100%;
+    height: 33%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+
+}
+
+.main-right-section-img{
+    width: 100%;
+    height: 80%;
+    display: flex;
+}
+
+.red{
+    color: red;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.rest{
+    width: 150px;
+    height: 100px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+    margin-bottom: 50px;
+}
+
+.rest-img{
+    width: 100%;
+    height: 80%;
+    display: flex;
+}
+.as-seen-on{
+    display: flex;
+    gap: 10px;
+}
+
+.as-seen-on p {
+    padding-top: 15px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.as-seen-on-img{
+    width: 800px;
+    height: 100px;
+    display: flex;
+}
+
+.links{
+    margin-bottom: 15px;
+    
+}
+
+.icons{
+    margin-top: 5px;
+}
